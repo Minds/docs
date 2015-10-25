@@ -1,7 +1,11 @@
 source:
-    - ../engine/Core
-    - ../engine/Helpers
+    - ../engine/Api
     - ../engine/Components
+    - ../engine/Core
+    - ../engine/Entities
+    - ../engine/Fs
+    - ../engine/Helpers
+    - ../engine/Controllers
 
 noSourceCode: true
 templateTheme: bootstrap
