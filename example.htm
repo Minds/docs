@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <title>Untitled</title>
+</head>
+
+<body>
+    <p> You are free to select me :) </p>
+    <p class="disableselect"><b> You can not select me!</b></p>
+    <p class oncopy="return false;" oncut="return false;" oncontextmenu="window.alert('Nice try! Even Ctrl+C or Ctrl+X will not work!');return false;">
+    <i>You can select but can not copy me ;)</i></p>
+
+    <!-- Displays an alert saying All Rights Reserved, displays the actual image and references to the CSS clases to disable select and drag -->
+    <img oncontextmenu="window.alert('All Rights Reserved &copy;');return false;"
+    src="https://1.bp.blogspot.com/-C6dwaNQJGb8/V1saw67gk8I/AAAAAAAAJhA/lVBlo-IqUZsh_KbocNjH4QMWgOLvYXHcwCK4B/s1600/logos-min.png"
+    class="disableselect disabledrag"/>
+</body>
+
+</html>
